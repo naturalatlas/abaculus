@@ -1,5 +1,5 @@
 {
-  "name": "@mapbox/abaculus",
+  "name": "@naturalatlas/abaculus",
   "version": "3.1.0",
   "description": "stitches map tiles together for high-res exporting from tm2",
   "main": "index.js",
@@ -15,8 +15,10 @@
   },
   "dependencies": {
     "@mapbox/sphericalmercator": "^1.1.x",
-    "mapnik": "^4.2.1",
     "d3-queue": "^3.0.7"
+  },
+  "peerDependencies": {
+    "mapnik": "*"
   },
   "devDependencies": {
     "mocha": "^6.x"
